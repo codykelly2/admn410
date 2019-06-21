@@ -1,0 +1,51 @@
+﻿body{
+margin: 0 auto;
+}
+
+.header {
+back-ground color: rgba(50, 0, 300, .4);
+padding: 50px;
+text-align: center;
+}
+
+.nav {
+overflow: hidden;
+back-ground color: lightgrey;
+}
+
+.nav a {
+float: center;
+display: inline;
+color: black;
+text-align: center;
+padding: 12px 14px;
+text-decoration: none;
+}
+
+.nav a:hover {
+back-ground color: white;
+color: black;
+}
+
+.col {
+float: left;
+padding: 10px;
+}
+
+.col_left {
+width: 30%;
+}
+
+.col_middle {
+width: 40%;
+}
+
+.col_right {
+width: 30%;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
